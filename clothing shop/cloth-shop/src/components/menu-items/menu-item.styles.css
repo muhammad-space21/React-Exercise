@@ -13,19 +13,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid black;
+  border: none;
   margin: 0 7.5px 15px;
   overflow: hidden;
 }
 
 .menu-item .small {
-  width: 230.57px;
-  height: 242px;
+  width: 223.5px;
+  height: 240px;
 }
 
 .menu-item .large {
-  width: 359.02px;
-  height: 242px;
+  width: 357px;
+  height: 240px;
 }
 
 .menu-item .background-image {
@@ -59,7 +59,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border: 1px solid black;
+  border: none;
   background-color: white;
   opacity: 0.7;
   position: absolute;
@@ -75,5 +75,22 @@
 .menu-item .subtitle {
   font-size: 16px;
   font-weight: lighter;
+}
+
+.menu-item:hover {
+  cursor: pointer;
+}
+
+.menu-item:hover .background-image {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transition: -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95), -webkit-transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.menu-item:hover .content {
+  opacity: 0.9;
 }
 /*# sourceMappingURL=menu-item.styles.css.map */
