@@ -1,9 +1,9 @@
 import React from 'react';
 import  {withRouter} from 'react-router-dom'; // Higher Order Component (HOC)
-import '../menu-items/menu-item.styles.css';//error 
+import '../menu-items/menu-item.styles.css';
 
 
-// Functional Component of Menu-Items // no state is needed
+// Functional Component of Menu-Items // Stateless
 const MenuItem = ({title, imageUrl, size, history, linkUrl, match} ) => (
     <div className={`${size} menu-item`} onClick={() => history.push(`${match.url}${linkUrl}`)}>
     <div className="background-image" 
