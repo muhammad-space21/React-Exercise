@@ -1,6 +1,6 @@
 import React from 'react';
 import  {withRouter} from 'react-router-dom'; // Higher Order Component (HOC)
-import '../menu-items/menu-item.styles.css';
+import '../menu-items/menu-item.styles.scss';
 
 
 // Functional Component of Menu-Items // Stateless
