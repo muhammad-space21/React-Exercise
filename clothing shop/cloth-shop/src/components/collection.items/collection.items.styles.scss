@@ -6,12 +6,32 @@
     align-items: center;
 
         .image {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
             width: 100%;
             height: 95%;
             background-size: cover;
             background-position: center;
             margin-bottom: 5px;
+
+            &:hover {
+                color: grey;
+                opacity: 0.8;
+                .custom-button {
+                    display: block;
+                    opacity: none;
+                }
+            }
         }
+        .custom-button {
+            text-align: center;
+            width: 50%;
+            margin-bottom: 10px;
+            display: none;
+        }
+
         .collection-footer {
             width: 100%;
             height: 5%;

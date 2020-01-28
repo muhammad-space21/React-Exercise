@@ -4,6 +4,8 @@ import {ReactComponent as Logo} from '../../assets/crwn.logo.svg';
 import '../header/header.component.styles.scss';
 import { auth } from '../../firebase/firebase.util';
 
+
+
 // Functional Component // Stateless 
 const Header = ({ currentUser }) => (
     <div className='header'>
@@ -14,7 +16,7 @@ const Header = ({ currentUser }) => (
             <Link className='option' to='/shop'>
                 SHOP    
             </Link>
-            <Link className='option' to='/shop'>
+            <Link className='option' to='/contact'>
                 CONTACT   
             </Link>
             {
