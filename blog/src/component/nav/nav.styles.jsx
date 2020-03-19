@@ -11,8 +11,8 @@ export const StyledNav = styled(Nav)`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    margin-top: 85px;
+    /* position: absolute;
+    margin-top: 85px; */
     @media screen and ( max-width: 1050px ) {
         display: none;
     }

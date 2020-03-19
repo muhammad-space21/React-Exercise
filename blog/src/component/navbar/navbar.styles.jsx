@@ -6,7 +6,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 export const StyledNavbar = styled(Navbar)`
     width: 100%;
     height: 82px;
-    position: fixed;
+    /* position: fixed; */
     border-top:  1.5px solid #D5D7D8;
     `;
 
