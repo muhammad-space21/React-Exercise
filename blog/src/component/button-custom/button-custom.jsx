@@ -4,9 +4,8 @@ import { StyledContainer } from './button-custom.styles';
 
 
 
-const ButtonCustom = () => (
-    <StyledContainer>
-        <span>Start my subscription!</span>
+const ButtonCustom = (props) => (
+    <StyledContainer {...props} >
     </StyledContainer>
 );
 

@@ -41,7 +41,7 @@ const Footer = () => (
                 </BrandContainer>
             </ColTop1>
             <ColTop2>
-                <ButtonCustom />
+                <ButtonCustom>Start my subscription!</ButtonCustom>
             </ColTop2>
         </Row1>
         <Row2>
