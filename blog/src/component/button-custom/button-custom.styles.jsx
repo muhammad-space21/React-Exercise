@@ -40,3 +40,4 @@ export const GoBtnStyle = css`
         width: 100%;
     }
 `;
+
