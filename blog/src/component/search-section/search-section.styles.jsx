@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import ImageBackground from '../../assets/images/asset3.jpg';
+import ImageBackground from '../../assets/images/asset-5.jpeg';
 
 import { Form } from 'react-bootstrap';
 

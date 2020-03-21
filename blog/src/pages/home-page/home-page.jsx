@@ -4,6 +4,8 @@ import { StyledContainer } from './home-page.styles';
 
 import NavbarMain from '../../component/navbar/navbar';
 import NavMain from '../../component/nav/nav';
+import InsightSection from '../../component/insight-section/insight-section';
+import SpecialCoverageSection from '../../component/special-coverage-section/special-coverage-section';
 import PopularTopicsSection from '../../component/popular-topics-section/popular-topics-section';
 import SubscribeSection from '../../component/subscribe-section/subscribe-section';
 import NewsletterSection from '../../component/newsletter-section/newsletter-section';
@@ -15,6 +17,8 @@ const HomePage = () => (
     <StyledContainer>
         <NavbarMain />
         <NavMain />
+        <InsightSection />
+        <SpecialCoverageSection />
         <PopularTopicsSection />
         <SubscribeSection />
         <NewsletterSection />
