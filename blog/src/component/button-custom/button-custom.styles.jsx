@@ -3,6 +3,8 @@ import styled, {css} from 'styled-components';
 const getButtonStyle = props => {
     if (props.goBtn) {
         return GoBtnStyle;
+    } else if (props.subscribeBtn) {
+        return SubscribeBtn;
     } else {
         return  StyledContainer;
     }
@@ -38,6 +40,23 @@ export const GoBtnStyle = css`
     text-align: center;
     @media screen and ( max-width: 768px ) {
         width: 100%;
+    }
+`;
+
+export const SubscribeBtn = css`
+    width: 125px;
+    height: 37px;
+    border-radius: 3px;
+    background-color: #C82502;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    border: 1px solid #C82502;
+    &:hover {
+        background-color: #A01E02;
+        border-color: #A01E02;
+        opacity: 100;
     }
 `;
 

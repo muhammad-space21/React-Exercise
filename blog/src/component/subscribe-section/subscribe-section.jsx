@@ -1,17 +1,13 @@
 import React from 'react';
 
-import { StyledContainer, Row, Heading } from './subscribe-section.styles';
+import { StyledContainer } from './subscribe-section.styles';
 
-import NewsletterCards from '../newsletter-cards/newsletter-cards';
+import ButtonCustom from '../button-custom/button-custom';
 
 const SubscribeSection = () => (
     <StyledContainer>
-        <Heading>Subscribe to HBR Newsletters: <span>Keep Informed</span></Heading>
-        <Row>
-            <NewsletterCards />
-        </Row>
+        <ButtonCustom subscribeBtn>Subscribe NOW</ButtonCustom>
     </StyledContainer>
-
 );
 
 export default SubscribeSection;
