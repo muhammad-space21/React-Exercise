@@ -10,8 +10,8 @@ const SpecialCoverageSection = () => (
         <Heading>Coronavirus</Heading>
         <H1>Leading and working through a pandemic.</H1>
         <Row>
-            <ArticleMain big secondaryTextHide hrHide />
-            <ArticleMain big secondaryTextHide hrHide />
+            <ArticleMain big secondaryTextHide hrHide imageHide />
+            <ArticleMain big secondaryTextHide hrHide imageHide />
         </Row>
     </StyledContainer>
 );

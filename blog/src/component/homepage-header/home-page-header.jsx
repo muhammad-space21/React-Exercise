@@ -2,7 +2,13 @@ import React from 'react';
 
 import { HeadingBig, SecondaryText, AuthorName } from '../constant.styles';
 
-import { StyledContainer, Main, AsideRight, TextWrapper, ImageWrapper} from './home-page-header.styles';
+import { 
+    StyledContainer, 
+    Main, 
+    AsideRight, 
+    TextWrapper, 
+    ImageWrapper
+} from './home-page-header.styles';
 
 import ArticleMain from '../article-main/article-main';
 import ArticleImage from '../../assets/images/asset-5.jpeg';
@@ -20,9 +26,9 @@ const HomePageHeader = () => (
             </ImageWrapper>
         </Main>
         <AsideRight>
-            <ArticleMain asideArticle buttonsHide />
-            <ArticleMain asideArticle buttonsHide />
-            <ArticleMain asideArticle buttonsHide />
+            <ArticleMain asideArticle  imageHide />
+            <ArticleMain asideArticle  imageHide />
+            <ArticleMain asideArticle   imageHide />
         </AsideRight>
     </StyledContainer>
 );

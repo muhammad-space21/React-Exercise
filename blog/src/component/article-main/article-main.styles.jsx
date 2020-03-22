@@ -5,8 +5,13 @@ export const StyledContainer = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: ${props => (props.bodyArticle ? '100px' : '0px')};
+    border-bottom: ${props => (props.hrHide ? 'none' : '1px solid #D5D7D8')};
     h1 {
         font-size: ${props => (props.big ? '23px' : '21px')};
         font-weight: 1000;
@@ -45,13 +50,19 @@ export const StyledContainer = styled.div`
         font-size: 14px;
         font-weight: 600;
     }
-    hr {
-        width: 100%;
-        display: ${props => (props.hrHide ? 'none' : 'block')};
-        border-bottom: 0.5px solid #D5D7D8;
+    img {
+        display: ${props => (props.imageHide ? 'none' : 'block')};
+        width: ${props => (props.imageHide ? '0px' : '250px')};
+        height: 140px;
     }
 `;
 
+export const Col1 = styled.div`
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+`;
 
 export const TextWrapper = styled.div`
     width: 100%;
@@ -69,4 +80,3 @@ export const ButtonsWrapper = styled.div`
     margin-top: 10px;
     margin-bottom: 15px;
 `;
-

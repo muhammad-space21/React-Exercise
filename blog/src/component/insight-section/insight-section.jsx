@@ -10,8 +10,8 @@ const InsightSection = () => (
         <Heading>The Era of Job Crafting</Heading>
         <H1>Design the work you want.</H1>
         <Row>
-            <ArticleMain big secondaryTextHide hrHide />
-            <ArticleMain big secondaryTextHide hrHide />
+            <ArticleMain big secondaryTextHide hrHide  imageHide />
+            <ArticleMain big secondaryTextHide hrHide imageHide />
         </Row>
     </StyledContainer>
 );
