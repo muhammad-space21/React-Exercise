@@ -4,6 +4,7 @@ import { StyledContainer } from './home-page.styles';
 
 import NavbarMain from '../../component/navbar/navbar';
 import NavMain from '../../component/nav/nav';
+import HomePageHeader   from '../../component/homepage-header/home-page-header';
 import InsightSection from '../../component/insight-section/insight-section';
 import SpecialCoverageSection from '../../component/special-coverage-section/special-coverage-section';
 import PopularTopicsSection from '../../component/popular-topics-section/popular-topics-section';
@@ -17,6 +18,7 @@ const HomePage = () => (
     <StyledContainer>
         <NavbarMain />
         <NavMain />
+        <HomePageHeader />
         <InsightSection />
         <SpecialCoverageSection />
         <PopularTopicsSection />

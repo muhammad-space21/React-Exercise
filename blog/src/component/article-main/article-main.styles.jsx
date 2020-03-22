@@ -40,6 +40,11 @@ export const StyledContainer = styled.div`
         font-size: 14px;
         font-weight: 600;
     }
+    hr {
+        width: 100%;
+        display: ${props => (props.hrHide ? 'none' : 'block')};
+        border-bottom: 1px solid grey;
+    }
 `;
 
 
