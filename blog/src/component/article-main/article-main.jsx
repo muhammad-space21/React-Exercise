@@ -17,6 +17,7 @@ const ArticleMain = (props) => (
             <ButtonSaveShare save /> 
             <ButtonSaveShare />
         </ButtonsWrapper>
+        <hr/>
     </StyledContainer>
 );
 
