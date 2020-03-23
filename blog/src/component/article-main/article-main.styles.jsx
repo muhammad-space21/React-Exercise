@@ -12,11 +12,17 @@ export const StyledContainer = styled.div`
     padding-bottom: 20px;
     padding-left: ${props => (props.bodyArticle ? '100px' : '0px')};
     border-bottom: ${props => (props.hrHide ? 'none' : '1px solid #D5D7D8')};
+    @media screen and ( max-width: 800px ) {
+        padding-left: 10px;
+    }
     h1 {
         font-size: ${props => (props.big ? '23px' : '21px')};
         font-weight: 1000;
         line-height: 25px;
         margin-bottom: 10px;
+        @media screen and ( max-width: 768px ) {
+        font-size: 18px;
+        }
             &:hover {
                 cursor: pointer;
                 opacity: 0.5;
@@ -28,6 +34,9 @@ export const StyledContainer = styled.div`
         color: #0787B1;
         margin-left: 4px;
         font-weight: 400;
+        @media screen and ( max-width: 768px ) {
+        font-size: 12px;
+        }
         &:hover {
             cursor: pointer;
             opacity: 0.5;
@@ -38,22 +47,47 @@ export const StyledContainer = styled.div`
         text-transform: uppercase;
         margin-left: 4px;
         font-weight: 400;
+        @media screen and ( max-width: 768px ) {
+        font-size: 12px;
+        }
     }
     h4 {
         font-size: 14px;
         margin-left: 4px;
         font-weight: 600;
         color: ${props => (props.asideArticle ? 'black' : '#888888')};
+        @media screen and ( max-width: 768px ) {
+        font-size: 12px;
+        }
     }
     span {
         display: ${props => (props.secondaryTextHide ? 'none' : '#282828')};
         font-size: 14px;
         font-weight: 600;
+        @media screen and ( max-width: 768px ) {
+        font-size: 14px;
+        }
     }
     img {
         display: ${props => (props.imageHide ? 'none' : 'block')};
         width: ${props => (props.imageHide ? '0px' : '250px')};
         height: 140px;
+        @media screen and ( max-width: 991px ) {
+            width: 200px;
+            height: 110px;
+        }
+        @media screen and ( max-width: 768px ) {
+            width: 180px;
+            height: 100px;
+        }
+        @media screen and ( max-width: 500px ) {
+            width: 170px;
+            height: 90px;
+        }
+        @media screen and ( max-width: 321px ) {
+            width: 100px;
+            height: 60px;
+        }
     }
 `;
 

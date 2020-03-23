@@ -9,7 +9,7 @@ export const StyledContainer = styled.div`
 `;
 
 export const Main = styled.div`
-    width: 67vw;
+    width: 67%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -18,10 +18,10 @@ export const Main = styled.div`
     padding-top: 30px;
     padding-bottom: 30px;
     @media screen and ( max-width: 768px ) {
-        width: 100vw;
+        width: 100%;
     } 
     @media screen and ( max-width: 991px ) {
-        width: 60vw;
+        width: 60%;
     }
 `;
 
@@ -36,6 +36,9 @@ export const TextWrapper = styled.div`
     @media screen and ( max-width: 991px ) {
         width: 100%;
     }
+    @media screen and ( max-width: 768px ) {
+        order: 2;
+    } 
 `;
 
 export const ImageWrapper = styled.div`
@@ -48,18 +51,22 @@ export const ImageWrapper = styled.div`
         height: 450px;
         object-fit: cover;
     }
+    @media screen and ( max-width: 768px ) {
+        order: 1;
+    }
 `;
 
 export const AsideRight = styled.div`
-    width: 33vw;
+    width: 33%;
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 40px;
     @media screen and ( max-width: 768px ) {
         display: none;
+        width: 0;
     }
     @media screen and ( max-width: 991px ) {
-        width: 40vw;
+        width: 40%;
     }
 `;

@@ -13,6 +13,8 @@ import SubscribeSection from '../../component/subscribe-section/subscribe-sectio
 import NewsletterSection from '../../component/newsletter-section/newsletter-section';
 import SearchSection from '../../component/search-section/search-section';
 import Footer from '../../component/footer/footer';
+import CallToActionSection from '../../component/call-to-action-section/call-to-action-section';
+
 
 
 const HomePage = () => (
@@ -28,6 +30,7 @@ const HomePage = () => (
         <NewsletterSection />
         <SearchSection />
         <Footer />
+        <CallToActionSection />
     </StyledContainer>
 );
 
