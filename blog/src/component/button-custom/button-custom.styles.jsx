@@ -5,6 +5,8 @@ const getButtonStyle = props => {
         return GoBtnStyle;
     } else if (props.subscribeBtn) {
         return SubscribeBtn;
+    } else if (props.postBtn) {
+        return PostBtn;
     } else {
         return  StyledContainer;
     }
@@ -60,3 +62,17 @@ export const SubscribeBtn = css`
     }
 `;
 
+export const PostBtn = css`
+    width: 128px;
+    height: 38px;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+`;

@@ -7,6 +7,7 @@ import NavMain from '../../component/nav/nav';
 import HomepageBody from '../../component/homepage-body/homepage-body';
 import PopularTopicsSection from '../../component/popular-topics-section/popular-topics-section';
 import Footer from '../../component/footer/footer';
+import CallToActionSection from '../../component/call-to-action-section/call-to-action-section';
 
 
 const TopicPage = () => (
@@ -16,6 +17,7 @@ const TopicPage = () => (
         <HomepageBody />
         <PopularTopicsSection />
         <Footer />
+        <CallToActionSection />
     </StyledContainer>
 );
 
