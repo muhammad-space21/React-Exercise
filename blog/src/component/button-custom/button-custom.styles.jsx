@@ -7,6 +7,8 @@ const getButtonStyle = props => {
         return SubscribeBtn;
     } else if (props.postBtn) {
         return PostBtn;
+    } else if (props.viewDetails) {
+        return ViewDetails;
     } else {
         return  StyledContainer;
     }
@@ -74,5 +76,23 @@ export const PostBtn = css`
     &:hover {
         cursor: pointer;
         opacity: 0.5;
+    }
+`;
+
+export const ViewDetails = css`
+    width: 112px;
+    height: 38px;
+    background-color: white;
+    border-color: #C82502;
+    border-radius: 4px;
+    color: #C82502;
+    text-align: center;
+    font-size: 12px;
+    &:hover {
+        background-color: #A22207;
+        color: #A22207;
+        cursor: pointer;
+        background-color: white;
+        opacity: 100;
     }
 `;

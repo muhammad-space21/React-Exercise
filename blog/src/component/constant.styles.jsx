@@ -7,6 +7,13 @@ export const HeadingBig = styled.span`
     font-weight: 1000;
 `;
 
+export const HeadingSmall = styled.span`
+    font-size: 15px;
+    font-weight: 1000;
+    line-height: 15px;
+    margin-bottom: 10px;
+`;
+
 export const SecondaryText = styled.span`
     font-size: 17px;
     line-height: 23px;
