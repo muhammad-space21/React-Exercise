@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const StyledContainer= styled.div`
-    width: 27vw;
+    width: 27%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -10,14 +10,14 @@ export const StyledContainer= styled.div`
         display: none;
     }
     @media screen and ( max-width: 800px ) {
-        width: 50vw;
+        width: 50%;
     }
     @media screen and ( max-width: 992px ) {
         margin-left: 30px;
-        width: 40vw;
+        width: 40%;
     }
     @media screen and ( max-width: 1050px ) {
-        width: 30vw;
+        width: 30%;
     }
 `;
 

@@ -6,7 +6,7 @@ import { StyledContainer, Body } from './article-page.styles';
 import NavbarMain from '../../component/navbar/navbar';
 import NavMain from '../../component/nav/nav';
 import MainFullArticle from '../../component/main-full-article/main-full-article';
-import ArticlePageAside from '../../component/article-page-aside/article-page-aside';
+import ArticlePageAside from '../../component/article-page-aside.preview/article-page-aside.preview';
 import CommentFormSection from '../../component/comment-form-section/comment-form-section';
 import Footer from '../../component/footer/footer';
 import CallToActionSection from '../../component/call-to-action-section/call-to-action-section';

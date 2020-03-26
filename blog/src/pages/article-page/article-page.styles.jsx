@@ -12,13 +12,15 @@ export const StyledContainer = styled.div`
 `;
 
 export const Body = styled.div`
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 20px;
     @media screen and ( max-width: 992px ) {
         justify-content: flex-start;
+        padding-right: 0;
     }
 `;
 

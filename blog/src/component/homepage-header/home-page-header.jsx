@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HeadingBig, SecondaryText, AuthorName } from '../constant.styles';
+import { HeadingBig, SecondaryText, AuthorNameBlue } from '../constant.styles';
 
 import { 
     StyledContainer, 
@@ -19,7 +19,7 @@ const HomePageHeader = () => (
             <TextWrapper>
                 <HeadingBig>How Bad Times Bring Out the Best in People</HeadingBig>
                 <SecondaryText>Lessons from one local bank’s response to Hurricane Katrina.</SecondaryText>
-                <AuthorName>By Bill Taylor</AuthorName>
+                <AuthorNameBlue>By Bill Taylor</AuthorNameBlue>
             </TextWrapper>
             <ImageWrapper>
                 <img src={ArticleImage} alt="article"/>

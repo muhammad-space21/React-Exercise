@@ -8,9 +8,9 @@ export const HeadingBig = styled.span`
 `;
 
 export const HeadingSmall = styled.span`
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 1000;
-    line-height: 15px;
+    line-height: 20px;
     margin-bottom: 10px;
     &:hover {
         cursor: pointer;
@@ -26,7 +26,7 @@ export const SecondaryText = styled.span`
     margin-bottom: 10px;
 `;
 
-export const AuthorName = styled.div`
+export const AuthorNameBlue = styled.div`
     margin-right: 5px;
     font-size: 14px;
     color: #282828;
@@ -36,10 +36,17 @@ export const AuthorName = styled.div`
         font-weight: 600;
         color: #0787B1;
         &:hover {
-        cursor: pointer;
-        opacity: 0.5;
+            cursor: pointer;
+            opacity: 0.5;
+        }
     }
-    }
+`;
+
+export const AuthorNameGrey = styled.span`
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
 `;
 
 export const ArticleType = styled.span`
@@ -69,4 +76,22 @@ export const ImageSource = styled.span`
 
 export const HR = styled.div`
     border-bottom: 1px solid #D5D7D8;
+`;
+
+export const Highlighted = styled.span`
+    color: #0787B1;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+`;
+
+export const Italic = styled.span`
+    font-style: italic;
+`;
+
+export const Price = styled.span`
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
 `;

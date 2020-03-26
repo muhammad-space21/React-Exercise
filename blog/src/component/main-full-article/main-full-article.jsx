@@ -8,18 +8,18 @@ import {
   ImageWrapper,
   AuthorNamesContainer,
   Paragraph,
-  P,
-  Highlighted,
-  Italic
+  P
 } from "./main-full-article.styles";
 
 import {
   ArticleType,
   HeadingBig,
-  AuthorName,
+  AuthorNameBlue,
   ImageSource,
   HR,
-  PublishTime
+  PublishTime,
+  Highlighted,
+  Italic
 } from "../constant.styles";
 
 import ImageArticle from "../../assets/images/dollar.img";
@@ -31,23 +31,26 @@ const MainFullArticle = () => (
         <ArticleType>HEALTH</ArticleType>
         <HeadingBig>Hospitals Need Cash. Health Insurers Have It.</HeadingBig>
         <AuthorNamesContainer>
-          <AuthorName>
+          <AuthorNameBlue>
             by
             <span> Sean Nicholson</span>
-          </AuthorName>
-          <AuthorName>
+          </AuthorNameBlue>
+          <AuthorNameBlue>
             and
             <span>David A. Asch</span>
-          </AuthorName>
+          </AuthorNameBlue>
         </AuthorNamesContainer>
         <PublishTime>March 22, 2020</PublishTime>
       </TextWrapper>
-      <IconWrapper></IconWrapper>
+      <IconWrapper>
+
+      </IconWrapper>
       <ImageWrapper>
         <img src={ImageArticle} alt="" />
         <ImageSource>Anton Petrus/Getty Images</ImageSource>
       </ImageWrapper>
     </Header>
+    <HR />
     <Paragraph>
       <P>
         U.S. hospitals are battling Covid-19 on many fronts: Scrambling to create new <Highlighted>intensive care</Highlighted>  unit beds, trying to secure scarce medical equipment to protect their <Highlighted>patients and their workforces,</Highlighted> training staff on novel treatment protocols, and hiring more nurses. In order to divert resources to the patients in the greatest need — and to protect the safety of the patients who can wait — hospitals are also postponing non-emergency care, cancelling elective procedures and, in general, halting the very activities that used to keep them in business.
@@ -59,17 +62,15 @@ const MainFullArticle = () => (
         Without any action, hospitals will burn through their cash. <Highlighted>Price gouging of 200%</Highlighted> for common products such as masks and gloves is now the norm. Financially weaker health systems may soon be unable to meet payroll or pay for their essential supplies. Based on data from 2018, a 25% drop in revenue would entirely eliminate the current assets (cash or assets that could be turned into cash within one year) for 25% of California hospitals.
       </P>
       <P>
-        Our hospitals are facing a <Highlighted>financial crisis</Highlighted> just when we need them the most during this unprecedented health crisis. The Senate bailout appears to allocate $130 billion to hospitals as Medicare’s contribution (and the federal portion of Medicaid), and provide $150 billion to state and local governments, some of which may be channeled to hospitals as the states’ component of Medicaid’s contribution. Private insurers should step in to do their part. And they need to step in right now.
+        Our hospitals are facing a <Highlighted>financial crisis</Highlighted> just when we need them the most during this unprecedented health crisis. The Senate bailout appears to allocate $130 billion to <Italic>hospitals</Italic>  as Medicare’s contribution (and the federal portion of Medicaid), and provide $150 billion to state and local governments, some of which may be channeled to hospitals as the states’ component of Medicaid’s contribution. Private insurers should step in to do their part. And they need to step in right now.
       </P>
       <P>
-        Health insurers manage our premium dollars. Private insurers collect premiums from employers, employees, and self-insured workers, and they use that money to pay care providers when they deliver services to us. Medicare and Medicaid likewise collect taxes which they use to pay providers for services delivered to the elderly, disabled, and lower-income individuals. Insurers are the stewards of our money. It isn’t their money.
+        Health insurers manage our premium dollars. <Italic>Private</Italic> insurers collect premiums from employers, employees, and self-insured workers, and they use that money to pay care providers when they deliver services to us. Medicare and Medicaid likewise collect taxes which they use to pay providers for services delivered to the elderly, disabled, and lower-income individuals. Insurers are the stewards of our money. It isn’t their money.
       </P>
       <P>
-        So the question is: How would Americans like health insurers to use our health care premium dollars? Surely the answer is to direct that money to the front lines to ameliorate this health crisis.
+        So the question is: How would <Italic>Americans</Italic>  like health insurers to use our health care premium dollars? Surely the answer is to direct that money to the front lines to ameliorate this health crisis.
       </P>
     </Paragraph>
-    
-    <HR />
   </StyledContainer>
 );
 

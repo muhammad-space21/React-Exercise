@@ -6,9 +6,9 @@ import {
     ImageWrapper, 
     Col2, 
     TextWrapper 
-} from './article-page-aside.styles';
+} from './article-page-aside.preview.styles';
 
-import RecommendedArticle from '../../component/recommended-articles/recommended-articles';
+import RecommendedArticle from '../../component/articles-recommended/articles-recommended';
 
 import ImageSide from '../../assets/images/asset1-min.jpg';
 

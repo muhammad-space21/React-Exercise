@@ -4,11 +4,14 @@ import {
     StyledContainer, 
     Row, 
     Col1, 
-    Col2, 
-    Heading, 
-    Title, 
+    Col2,  
+    Title 
+} from './articles-recommended.styles';
+
+import { 
+    HeadingSmall, 
     Price 
-} from './recommended-articles.styles';
+} from '../constant.styles.jsx';
 
 import ButtonCustom from '../button-custom/button-custom';
 
@@ -21,7 +24,7 @@ const RecommendedArticle = () => (
                 <img src={ImageArticle} alt="article"/>
             </Col1>
             <Col2>
-                <Heading>You at Work: Doing Your Best Work Remotely</Heading>
+                <HeadingSmall>You at Work: Doing Your Best Work Remotely</HeadingSmall>
                 <Title>PRESS TOOLKIT</Title>
                 <Price>$24.95</Price>
                 <ButtonCustom viewDetails >View Details</ButtonCustom>

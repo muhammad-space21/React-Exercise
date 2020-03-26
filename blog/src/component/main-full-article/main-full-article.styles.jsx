@@ -2,18 +2,18 @@ import styled from 'styled-components';
 
 
 export const StyledContainer = styled.div`
-    width: 50vw;
+    width: 50%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     margin-left: 200px;
-    border: 2px solid red;
     @media screen and ( max-width: 992px ) {
-        width: 60vw;
+        width: 60%;
         margin-left: 10px;
+        margin-right: 10px;
     }
     @media screen and ( max-width: 768px ) {
-        width: 100vw;
+        width: 100%;
     }
 `;
 
@@ -22,7 +22,6 @@ export const Header = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: column;
-    border: 2px solid yellow;
 `;
 
 export const TextWrapper = styled.div`
@@ -56,7 +55,7 @@ export const ImageWrapper = styled.div`
     height: 60%;
     background-position: center;
     background-size: cover;
-    border: 2px solid green;
+    margin-bottom: 40px;
     img {
         object-fit: cover;
         width: 100%;
@@ -77,15 +76,5 @@ export const P = styled.div`
     margin-bottom: 30px;
 `;
 
-export const Highlighted = styled.span`
-    color: #0787B1;
-    &:hover {
-        cursor: pointer;
-        opacity: 0.5;
-    }
-`;
 
-export const Italic = styled.span`
-    font-style: italic;
-`;
 
