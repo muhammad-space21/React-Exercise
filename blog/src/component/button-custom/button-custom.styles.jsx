@@ -9,6 +9,8 @@ const getButtonStyle = props => {
         return PostBtn;
     } else if (props.viewDetails) {
         return ViewDetails;
+    } else if (props.viewDetailsBlack) {
+        return ViewDetailsBlack;
     } else {
         return  StyledContainer;
     }
@@ -89,8 +91,26 @@ export const ViewDetails = css`
     text-align: center;
     font-size: 12px;
     &:hover {
-        background-color: #A22207;
+        border-color: #A22207;
         color: #A22207;
+        cursor: pointer;
+        background-color: white;
+        opacity: 100;
+    }
+`;
+
+export const ViewDetailsBlack = css`
+    width: 112px;
+    height: 38px;
+    background-color: white;
+    border-color: black;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    &:hover {
+        border-color: black;
+        color: black;
         cursor: pointer;
         background-color: white;
         opacity: 100;

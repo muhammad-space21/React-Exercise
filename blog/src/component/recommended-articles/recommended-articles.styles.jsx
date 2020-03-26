@@ -20,7 +20,6 @@ export const Row = styled.div`
     padding-right: 20px;
     padding-top: 10px;
     margin-bottom: 20px;
-
 `;
 
 export const Col1 = styled.div`
@@ -48,8 +47,11 @@ export const Heading = styled.span`
     font-weight: 1000;
     line-height: 20px;
     margin-bottom: 10px;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
 `;
-
 
 export const Title = styled.span`
     font-size: 14px;

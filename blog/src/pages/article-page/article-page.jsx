@@ -1,14 +1,11 @@
 import React from 'react';
 
-import { 
-    StyledContainer, 
-    Body, 
-    Main
-} from './article-page.styles';
+import { StyledContainer, Body } from './article-page.styles';
 
 
 import NavbarMain from '../../component/navbar/navbar';
 import NavMain from '../../component/nav/nav';
+import MainFullArticle from '../../component/main-full-article/main-full-article';
 import ArticlePageAside from '../../component/article-page-aside/article-page-aside';
 import CommentFormSection from '../../component/comment-form-section/comment-form-section';
 import Footer from '../../component/footer/footer';
@@ -20,9 +17,7 @@ const ArticlePage = () => (
         <NavbarMain />
         <NavMain />
         <Body>
-            <Main>
-
-            </Main>
+            <MainFullArticle />
             <ArticlePageAside />
         </Body>
         <CommentFormSection />

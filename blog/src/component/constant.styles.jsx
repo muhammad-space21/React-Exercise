@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 
 export const HeadingBig = styled.span`
-    font-size: 46px;
-    line-height: 50px;
+    font-size: 44px;
+    line-height: 48px;
     font-weight: 1000;
 `;
 
@@ -12,6 +12,10 @@ export const HeadingSmall = styled.span`
     font-weight: 1000;
     line-height: 15px;
     margin-bottom: 10px;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
 `;
 
 export const SecondaryText = styled.span`
@@ -22,11 +26,20 @@ export const SecondaryText = styled.span`
     margin-bottom: 10px;
 `;
 
-export const AuthorName = styled.span`
+export const AuthorName = styled.div`
+    margin-right: 5px;
     font-size: 14px;
-    margin-left: 4px;
-    font-weight: 600;
     color: #282828;
+    span {
+        font-size: 14px;
+        margin-left: 4px;
+        font-weight: 600;
+        color: #0787B1;
+        &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    }
 `;
 
 export const ArticleType = styled.span`
@@ -39,4 +52,21 @@ export const ArticleType = styled.span`
         cursor: pointer;
         opacity: 0.5;
     }
+`;
+
+export const PublishTime = styled.span`
+    font-size: 12px;
+    color: grey;
+    font-weight: 600;
+    margin-top: 10px;
+`;
+
+export const ImageSource = styled.span`
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;
+`;
+
+export const HR = styled.div`
+    border-bottom: 1px solid #D5D7D8;
 `;

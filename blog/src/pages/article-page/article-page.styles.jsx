@@ -22,22 +22,6 @@ export const Body = styled.div`
     }
 `;
 
-export const Main = styled.div`
-    width: 50vw;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
-    border: 2px solid red;
-    @media screen and ( max-width: 992px ) {
-        width: 60vw;
-        margin-left: 10px;
-    }
-    @media screen and ( max-width: 768px ) {
-        width: 100vw;
-    }
-`;
-
 
 
 
