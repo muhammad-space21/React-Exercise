@@ -37,6 +37,9 @@ export const CallToAction = styled.div`
         color: #F4D3CC;
         text-transform: uppercase;
         margin-left: 4px;
+        @media screen and ( max-width: 768px ) {
+            display: none;
+        }
     }
     &:hover {
         cursor: pointer;

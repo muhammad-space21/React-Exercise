@@ -10,3 +10,15 @@ export const StyledContainer = styled.div`
     flex-direction: column;
     font-family: 'Lato', sans-serif;
 `;
+
+export const Header = styled.div`
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    border: 2px solid green;
+    @media screen and ( max-width: 800px ) {
+        padding-left: 10px;
+    }
+`;
