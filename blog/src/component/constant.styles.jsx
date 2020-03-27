@@ -44,8 +44,8 @@ export const AuthorNameBlue = styled.div`
 
 export const AuthorNameGrey = styled.span`
     margin-right: 5px;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 700;
     color: grey;
 `;
 
@@ -53,8 +53,8 @@ export const ArticleType = styled.span`
     font-size: 14px;
     text-transform: uppercase;
     color: #0787B1;
-    margin-left: 4px;
     font-weight: 400;
+    margin-bottom: 10px;
     &:hover {
         cursor: pointer;
         opacity: 0.5;
@@ -94,4 +94,17 @@ export const Price = styled.span`
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 10px;
+`;
+
+export const H1Bold = styled.h1`
+    font-size: 18px;
+    font-weight: 1000;
+    line-height: 30px;
+`;
+
+export const TitlesOfSections = styled.h1`
+    font-size: 12px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    padding-left: 12px;
 `;

@@ -13,11 +13,11 @@ export const StyledContainer= styled.div`
         width: 50%;
     }
     @media screen and ( max-width: 992px ) {
-        margin-left: 30px;
         width: 40%;
     }
     @media screen and ( max-width: 1050px ) {
         width: 30%;
+        margin-left: 30px;
     }
 `;
 
@@ -30,12 +30,6 @@ export const Col1 = styled.div`
     margin-top: 50px;
     margin-bottom: 100px;
     padding-right: 20px;
-    h1 {
-        font-size: 12px;
-        font-weight: 1000;
-        text-transform: uppercase;
-        padding-left: 12px;
-    }
 `;
 
 export const ImageWrapper = styled.div`

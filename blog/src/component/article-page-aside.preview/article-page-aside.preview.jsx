@@ -10,14 +10,14 @@ import {
 
 import RecommendedArticle from '../../component/articles-recommended/articles-recommended';
 
-import ImageSide from '../../assets/images/asset1-min.jpg';
+import ImageSide from '../../assets/images/corona-4.jpg';
 
-import { HeadingSmall } from '../../component/constant.styles';
+import { HeadingSmall, TitlesOfSections } from '../../component/constant.styles';
 
 const ArticlePageAside = () => (
     <StyledContainer>
         <Col1>
-            <h1>What to read next</h1>
+        <TitlesOfSections>What to read next</TitlesOfSections>
             <ImageWrapper>
                 <img src={ImageSide} alt="aside" />
             </ImageWrapper>
@@ -28,7 +28,7 @@ const ArticlePageAside = () => (
             </TextWrapper>
         </Col1>
         <Col2>
-            <h1>Recommended</h1>
+            <TitlesOfSections>Recommended</TitlesOfSections>  
             <RecommendedArticle/>
             <RecommendedArticle/>
             <RecommendedArticle/>

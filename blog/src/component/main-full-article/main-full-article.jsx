@@ -19,7 +19,8 @@ import {
   HR,
   PublishTime,
   Highlighted,
-  Italic
+  Italic,
+  H1Bold
 } from "../constant.styles";
 
 import ImageArticle from "../../assets/images/dollar.img";
@@ -62,6 +63,7 @@ const MainFullArticle = () => (
         Without any action, hospitals will burn through their cash. <Highlighted>Price gouging of 200%</Highlighted> for common products such as masks and gloves is now the norm. Financially weaker health systems may soon be unable to meet payroll or pay for their essential supplies. Based on data from 2018, a 25% drop in revenue would entirely eliminate the current assets (cash or assets that could be turned into cash within one year) for 25% of California hospitals.
       </P>
       <P>
+        <H1Bold>Hospitals</H1Bold>
         Our hospitals are facing a <Highlighted>financial crisis</Highlighted> just when we need them the most during this unprecedented health crisis. The Senate bailout appears to allocate $130 billion to <Italic>hospitals</Italic>  as Medicare’s contribution (and the federal portion of Medicaid), and provide $150 billion to state and local governments, some of which may be channeled to hospitals as the states’ component of Medicaid’s contribution. Private insurers should step in to do their part. And they need to step in right now.
       </P>
       <P>
