@@ -7,6 +7,7 @@ export const StyledContainer = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 200px;
+    margin-bottom: 50px;
     @media screen and ( max-width: 992px ) {
         width: 60%;
         margin-left: 10px;
@@ -46,7 +47,7 @@ export const IconWrapper = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: row;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     margin-bottom: 10px;
 `;
 

@@ -51,7 +51,7 @@ export const AuthorNameGrey = styled.span`
 
 export const ArticleType = styled.span`
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: ${props => (props.lowercase ? 'none' : 'uppercase')};
     color: #0787B1;
     font-weight: 400;
     margin-bottom: 10px;

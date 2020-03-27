@@ -7,6 +7,7 @@ import NavbarMain from '../../component/navbar/navbar';
 import NavMain from '../../component/nav/nav';
 import MainFullArticle from '../../component/main-full-article/main-full-article';
 import ArticlePageAside from '../../component/article-page-aside.preview/article-page-aside.preview';
+import WritersProfile from '../../component/writers-profile/writers-profile';
 import ArticleRelatedPreview  from '../../component/article.related.preview/article-related.preview';
 import CommentFormSection from '../../component/comment-form-section/comment-form-section';
 import Footer from '../../component/footer/footer';
@@ -21,6 +22,9 @@ const ArticlePage = () => (
             <MainFullArticle />
             <ArticlePageAside />
         </Body>
+        <WritersProfile />
+        <WritersProfile />
+        <WritersProfile />
         <ArticleRelatedPreview />
         <CommentFormSection />
         <Footer />
