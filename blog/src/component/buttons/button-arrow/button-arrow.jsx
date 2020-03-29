@@ -2,7 +2,7 @@ import React from 'react';
 
 import { StyledContainer } from './button-arrow.styles';
 
-import IconArrowNext from '../../assets/icons/next.svg';
+import IconArrowNext from '../../../assets/icons/next.svg';
 
 const ButtonArrow = (props) => {
     

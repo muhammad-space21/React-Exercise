@@ -2,7 +2,7 @@ import React from 'react';
 
 import { StyledContainer } from './subscribe-section.styles';
 
-import ButtonCustom from '../button-custom/button-custom';
+import ButtonCustom from '../buttons/button-custom/button-custom';
 
 const SubscribeSection = () => (
     <StyledContainer>

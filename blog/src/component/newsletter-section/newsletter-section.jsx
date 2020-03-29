@@ -3,7 +3,7 @@ import React from 'react';
 import { StyledContainer, Row, Heading } from './newsletter-section.styles';
 
 import NewsletterCards from '../newsletter-cards/newsletter-cards';
-import ButtonArrow from '../button-arrow/button-arrow';
+import ButtonArrow from '../buttons/button-arrow/button-arrow';
 
 
 const NewsletterSection = () => (

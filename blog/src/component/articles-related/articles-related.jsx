@@ -2,7 +2,7 @@ import React from 'react';
 
 import { StyledContainer, ImageWrapper, TextWrapper } from './articles-related.styles';
 
-import { HeadingSmall, AuthorNameGrey, ArticleType, H1Bold } from '../constant.styles';
+import { HeadingSmall, AuthorNameGrey, ArticleType } from '../constant.styles';
 
 import ImageArticle from '../../assets/images/corona-1.jpg';
 

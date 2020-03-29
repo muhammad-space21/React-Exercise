@@ -15,7 +15,7 @@ import {
 
 import { Form } from 'react-bootstrap';
 
-import ButtonCustom from '../../component/button-custom/button-custom';
+import ButtonCustom from '../../component/buttons/button-custom/button-custom';
 
 
 

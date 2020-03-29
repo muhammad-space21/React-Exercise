@@ -2,8 +2,8 @@ import React from 'react';
 
 import { StyledContainer } from './button-string.styles';
 
-import IconPlus from '../../assets/icons/plus.svg';
-import IconExchange from '../../assets/icons/exchange.svg';
+import IconPlus from '../../../assets/icons/plus.svg';
+import IconExchange from '../../../assets/icons/exchange.svg';
 
 const ButtonString = (props) => {
     

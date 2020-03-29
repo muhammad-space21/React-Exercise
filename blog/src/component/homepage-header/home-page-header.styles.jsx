@@ -5,7 +5,7 @@ export const StyledContainer = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: row;
-    border-bottom: 0.5px solid #D5D7D8;
+    border-bottom: 1px solid #D5D7D8;
 `;
 
 export const Main = styled.div`

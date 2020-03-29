@@ -2,7 +2,7 @@ import React from 'react';
 
 import { StyledContainer, TextWrapper, ButtonsWrapper, Col1 } from './article-main.styles';
 
-import ButtonSaveShare from '../button-save-share/button-save-share';
+import ButtonSaveShare from '../buttons/button-save-share/button-save-share';
 
 import ImageArticle  from '../../assets/images/coronavirus-1.jpg';
 

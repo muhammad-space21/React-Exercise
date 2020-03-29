@@ -14,7 +14,7 @@ import {
 } from './comment-form-section.styles';
 
 
-import ButtonCustom from '../button-custom/button-custom';
+import ButtonCustom from '../buttons/button-custom/button-custom';
 import CommentSample from '../comment-sample/comment-sample';
 import IconArrowDown from '../../assets/icons/down-arrow.svg';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ButtonCustom from '../button-custom/button-custom';
+import ButtonCustom from '../buttons/button-custom/button-custom';
 import NavBottom from '../nav-bottom/nav-bottom';
 
 import { 
