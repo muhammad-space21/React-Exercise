@@ -26,9 +26,9 @@ const HomePageHeader = () => (
             </ImageWrapper>
         </Main>
         <AsideRight>
-            <ArticleMain asideArticle  imageHide />
-            <ArticleMain asideArticle  imageHide />
-            <ArticleMain asideArticle   imageHide />
+            <ArticleMain authorNameBlack  imageHide />
+            <ArticleMain authorNameBlack  imageHide />
+            <ArticleMain authorNameBlack  imageHide />
         </AsideRight>
     </StyledContainer>
 );

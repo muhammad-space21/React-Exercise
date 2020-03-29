@@ -39,7 +39,6 @@ export const AuthorNamesContainer = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
 `;
 
 export const IconWrapper = styled.div`

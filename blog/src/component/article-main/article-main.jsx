@@ -15,13 +15,13 @@ const ArticleMain = (props) => (
                 <h3>digital article</h3>
                 <h4>by Amy</h4>
             </TextWrapper>
-            <span>You can still feel connected from afar.</span>
+            <h5>You can still feel connected from afar.</h5>
             <ButtonsWrapper>
                 <ButtonString homePageBtn saveShare save />
                 <ButtonString homePageBtn saveShare />
             </ButtonsWrapper>
         </Col1>
-        <img src={ImageArticle} alt="article"/>
+        <content><img  src={ImageArticle} alt="article"/></content>
     </StyledContainer>
 );
 

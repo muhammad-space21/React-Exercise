@@ -5,6 +5,7 @@ export const HeadingBig = styled.span`
     font-size: 44px;
     line-height: 48px;
     font-weight: 1000;
+    margin-bottom: 20px;
 `;
 
 export const HeadingSmall = styled.span`
@@ -55,6 +56,8 @@ export const ArticleType = styled.span`
     color: #0787B1;
     font-weight: 400;
     margin-bottom: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
     &:hover {
         cursor: pointer;
         opacity: 0.5;
@@ -107,4 +110,18 @@ export const TitlesOfSections = styled.h1`
     font-weight: 1000;
     text-transform: uppercase;
     padding-left: 12px;
+`;
+
+export const Heading16 = styled.h1`
+    font-size: 16px;
+    margin-right: 10px;
+`;
+
+export const Heading17Grey = styled.h1`
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #6F6F6F;
+    font-weight: 1000;
+    margin-top: 30px;
+    margin-bottom: -10px;
 `;

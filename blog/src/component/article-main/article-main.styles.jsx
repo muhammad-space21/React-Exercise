@@ -10,7 +10,7 @@ export const StyledContainer = styled.div`
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: ${props => (props.bodyArticle ? '100px' : '0px')};
+    padding-left: ${props => (props.paddingLeft100 ? '100px' : '0px')};
     border-bottom: ${props => (props.hrHide ? 'none' : '1px solid #D5D7D8')};
     @media screen and ( max-width: 800px ) {
         padding-left: 10px;
@@ -32,7 +32,6 @@ export const StyledContainer = styled.div`
         font-size: 14px;
         text-transform: uppercase;
         color: #0787B1;
-        margin-left: 4px;
         font-weight: 400;
         @media screen and ( max-width: 768px ) {
         font-size: 12px;
@@ -55,38 +54,40 @@ export const StyledContainer = styled.div`
         font-size: 14px;
         margin-left: 4px;
         font-weight: 600;
-        color: ${props => (props.asideArticle ? 'black' : '#888888')};
+        color: ${props => (props.authorNameBlack ? 'black' : '#888888')};
         @media screen and ( max-width: 768px ) {
         font-size: 12px;
         }
     }
-    span {
-        display: ${props => (props.secondaryTextHide ? 'none' : '#282828')};
+    h5 {
+        display: ${props => (props.secondaryTextHide ? 'none' : 'block')};
         font-size: 14px;
         font-weight: 600;
         @media screen and ( max-width: 768px ) {
         font-size: 14px;
         }
     }
-    img {
-        display: ${props => (props.imageHide ? 'none' : 'block')};
-        width: ${props => (props.imageHide ? '0px' : '250px')};
-        height: 140px;
-        @media screen and ( max-width: 991px ) {
-            width: 200px;
-            height: 110px;
-        }
-        @media screen and ( max-width: 768px ) {
-            width: 180px;
-            height: 100px;
-        }
-        @media screen and ( max-width: 500px ) {
-            width: 170px;
-            height: 90px;
-        }
-        @media screen and ( max-width: 321px ) {
-            width: 100px;
-            height: 60px;
+    content {
+        display: ${props => (props.imageHide ? 'none' : 'block' )};
+        img {
+            width: 250px;
+            height: 140px;
+            @media screen and ( max-width: 991px ) {
+                width: 200px;
+                height: 110px;
+            }
+            @media screen and ( max-width: 768px ) {
+                width: 180px;
+                height: 100px;
+            }
+            @media screen and ( max-width: 500px ) {
+                width: 170px;
+                height: 90px;
+            }
+            @media screen and ( max-width: 321px ) {
+                width: 100px;
+                height: 60px;
+            }
         }
     }
 `;
@@ -96,6 +97,7 @@ export const Col1 = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 `;
 
 export const TextWrapper = styled.div`
@@ -103,6 +105,7 @@ export const TextWrapper = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 `;
 
 export const ButtonsWrapper = styled.div`

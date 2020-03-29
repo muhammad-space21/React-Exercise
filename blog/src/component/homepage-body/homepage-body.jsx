@@ -6,12 +6,12 @@ import ArticleMain from '../article-main/article-main';
 
 const HomepageBody = () => (
     <StyledContainer>
-        <ArticleMain bodyArticle />
-        <ArticleMain bodyArticle />
-        <ArticleMain bodyArticle />
-        <ArticleMain bodyArticle />
-        <ArticleMain bodyArticle />
-        <ArticleMain bodyArticle /> 
+        <ArticleMain paddingLeft100 />
+        <ArticleMain paddingLeft100 />
+        <ArticleMain paddingLeft100 />
+        <ArticleMain paddingLeft100 />
+        <ArticleMain paddingLeft100 />
+        <ArticleMain paddingLeft100 /> 
     </StyledContainer>
 );
 
