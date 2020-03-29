@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled  from 'styled-components';
 
 
 export const StyledContainer = styled.div`
@@ -65,9 +65,6 @@ export const Heading = styled.div`
     line-height: 25px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    /* @media screen and ( max-width: 768px ) {
-        font-size: 16px;
-    } */
 `;
 
 export const P = styled.p`
@@ -75,8 +72,11 @@ export const P = styled.p`
     line-height: 20px;
 `;
 
-export const BtnWrapper = styled.div`
-    width: 100%;
-    height: fit-content;
-    padding-left: ${props => (props.center ? '60px' : '170px')};
-`;
+// export const BtnWrapper = styled.div`
+//     width: 100%;
+//     height: fit-content;
+//     border: 2px solid red;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: flex-end;
+// `;

@@ -47,7 +47,6 @@ export const IconWrapper = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: row;
-    /* border: 2px solid purple; */
     margin-bottom: 10px;
 `;
 

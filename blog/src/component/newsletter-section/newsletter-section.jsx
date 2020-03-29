@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { StyledContainer, Row, Heading } from './newsletter-section.styles';
+import { StyledContainer, Row, Heading, ButtonWrapper } from './newsletter-section.styles';
 
 import NewsletterCards from '../newsletter-cards/newsletter-cards';
 import ButtonArrow from '../buttons/button-arrow/button-arrow';
@@ -12,7 +12,9 @@ const NewsletterSection = () => (
         <Row>
             <NewsletterCards />
         </Row>
-        <ButtonArrow />
+        <ButtonWrapper>
+            <ButtonArrow />
+        </ButtonWrapper>
     </StyledContainer>
 
 );

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { StyledContainer, TextWrapper, ButtonsWrapper, Col1 } from './article-main.styles';
 
-import ButtonSaveShare from '../buttons/button-save-share/button-save-share';
+import ButtonString from '../buttons/button-string/button-string';
 
 import ImageArticle  from '../../assets/images/coronavirus-1.jpg';
 
@@ -17,8 +17,8 @@ const ArticleMain = (props) => (
             </TextWrapper>
             <span>You can still feel connected from afar.</span>
             <ButtonsWrapper>
-                <ButtonSaveShare save /> 
-                <ButtonSaveShare />
+                <ButtonString homePageBtn saveShare save />
+                <ButtonString homePageBtn saveShare />
             </ButtonsWrapper>
         </Col1>
         <img src={ImageArticle} alt="article"/>

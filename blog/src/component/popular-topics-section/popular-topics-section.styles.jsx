@@ -3,7 +3,7 @@ import styled from  'styled-components';
 
 export const StyledContainer = styled.div`
     width: 100%;
-    height: 427px;
+    height: fit-content;
     background-color: #CBE2E4;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ export const Row = styled.div`
     align-items: center;
     justify-content: space-around;
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     @media screen and ( max-width: 991px ) {
         width: 100%;
     }
@@ -43,4 +43,10 @@ export const Heading = styled.div`
     @media screen and ( max-width: 768px ) {
         font-size: 16px;
     }
+`;
+
+export const ButtonWrapper = styled.div`
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 30px;
 `;

@@ -7,38 +7,50 @@ import {
     Cards, 
     CardsHide, 
     P, 
-    BtnWrapper 
+    // BtnWrapper 
 } from './popular-topics-cards.styles';
 
 
-// import ButtonString from '../buttons/button-string/button-string';
+import ButtonString from '../buttons/button-string/button-string';
 
 
 const PopularTopicsCards = () => (
     <StyledContainer>
         <Cards>
-        {/* <BtnWrapper><ButtonString exchangeBtn /></BtnWrapper> */}
+        {/* <BtnWrapper> */}
+            <ButtonString homePageBtn exchangeBtn />
+        {/* </BtnWrapper> */}
             <TextWrapper>
                 <Heading>MARKETING</Heading>
             <P>How well do you know your customers?</P>
             </TextWrapper>
-            {/* <BtnWrapper center ><ButtonString /></BtnWrapper> */}
+            {/* <BtnWrapper center > */}
+                <ButtonString homePageBtn />
+            {/* </BtnWrapper> */}
         </Cards>
         <CardsHide>
-        {/* <BtnWrapper><ButtonString exchangeBtn /></BtnWrapper> */}
+        {/* <BtnWrapper> */}
+            <ButtonString homePageBtn exchangeBtn />
+        {/* </BtnWrapper> */}
             <TextWrapper>
                 <Heading>DECISION MAKING</Heading>
             <P>Balancing data, experience, and intuition.</P>
             </TextWrapper>
-            {/* <BtnWrapper center ><ButtonString /></BtnWrapper> */}
+            {/* <BtnWrapper center > */}
+                <ButtonString homePageBtn />
+            {/* </BtnWrapper> */}
         </CardsHide>
         <CardsHide>
-        {/* <BtnWrapper><ButtonString exchangeBtn /></BtnWrapper> */}
+        {/* <BtnWrapper> */}
+            <ButtonString homePageBtn exchangeBtn />
+        {/* </BtnWrapper> */}
             <TextWrapper>
                 <Heading>ENTREPRENEURSHIP</Heading>
             <P>In start-ups and established companies.</P>
             </TextWrapper>
-            {/* <BtnWrapper center ><ButtonString /></BtnWrapper> */}
+            {/* <BtnWrapper center > */}
+                <ButtonString homePageBtn />
+            {/* </BtnWrapper> */}
         </CardsHide>
     </StyledContainer>
 );

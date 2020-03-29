@@ -23,6 +23,7 @@ import {
   H1Bold
 } from "../constant.styles";
 
+import ButtonString from '../buttons/button-string/button-string';
 import ImageArticle from "../../assets/images/dollar.img";
 
 const MainFullArticle = () => (
@@ -44,7 +45,11 @@ const MainFullArticle = () => (
         <PublishTime>March 22, 2020</PublishTime>
       </TextWrapper>
       <IconWrapper>
-
+        <ButtonString articlePage1 />
+        <ButtonString homePageBtn saveShare save />
+        <ButtonString homePageBtn saveShare />
+        <ButtonString articlePage1 comment />
+        <ButtonString  />
       </IconWrapper>
       <ImageWrapper>
         <img src={ImageArticle} alt="" />

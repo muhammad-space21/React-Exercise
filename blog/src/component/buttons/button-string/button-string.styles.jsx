@@ -6,17 +6,25 @@ export const StyledContainer = styled.div`
     height: fit-content;
     display: flex;
     flex-direction: row;
-    span {
-        font-size: 13px;
-        color: grey;
-        margin-left: 3px;
-    }
-    img {
-        width: 15px;
-        height: 15px;
-    }
     &:hover {
         cursor: pointer;
         opacity: 0.5;
+    }
+`;
+
+export const Row = styled.div`
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    text-align: ${props => (props.center ? 'center' : 'end')};
+    span {
+        font-size: 13px;
+    }
+    img {
+        width: 17px;
+        height: 17px;
+        margin-right: 5px;
     }
 `;

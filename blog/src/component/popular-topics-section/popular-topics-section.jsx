@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { StyledContainer, Row, Heading } from './popular-topics-section.styles';
+import { StyledContainer, Row, Heading, ButtonWrapper} from './popular-topics-section.styles';
 
 import PopularTopicsCards from '../popular-topics-cards/popular-topics-cards';
-// import ButtonArrow from '../buttons/button-arrow/button-arrow';
+import ButtonArrow from '../buttons/button-arrow/button-arrow';
 
 const PopularTopicsSection = () => (
     <StyledContainer>
@@ -11,7 +11,7 @@ const PopularTopicsSection = () => (
         <Row>
             <PopularTopicsCards />
         </Row>
-        {/* <ButtonArrow seeTopics /> */}
+        <ButtonWrapper><ButtonArrow seeTopics /></ButtonWrapper>
     </StyledContainer>
 );
 
