@@ -10,7 +10,7 @@ export const StyledNavbar = styled(Navbar)`
     border-top:  1.5px solid #D5D7D8;
     background-color: white;
     border-bottom: 1px solid #D5D7D8;
-    `;
+`;
 
 export const BrandContainer = styled.div`
     width: 100%;

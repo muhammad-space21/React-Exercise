@@ -7,7 +7,7 @@ import {
     Cards, 
     CardsHide, 
     P, 
-    // BtnWrapper 
+    BtnWrapper 
 } from './popular-topics-cards.styles';
 
 
@@ -17,40 +17,40 @@ import ButtonString from '../buttons/button-string/button-string';
 const PopularTopicsCards = () => (
     <StyledContainer>
         <Cards>
-        {/* <BtnWrapper> */}
+        <BtnWrapper right >
             <ButtonString homePageBtn exchangeBtn />
-        {/* </BtnWrapper> */}
+        </BtnWrapper>
             <TextWrapper>
                 <Heading>MARKETING</Heading>
             <P>How well do you know your customers?</P>
             </TextWrapper>
-            {/* <BtnWrapper center > */}
+            <BtnWrapper center >
                 <ButtonString homePageBtn />
-            {/* </BtnWrapper> */}
+            </BtnWrapper>
         </Cards>
         <CardsHide>
-        {/* <BtnWrapper> */}
+        <BtnWrapper right >
             <ButtonString homePageBtn exchangeBtn />
-        {/* </BtnWrapper> */}
+        </BtnWrapper>
             <TextWrapper>
                 <Heading>DECISION MAKING</Heading>
             <P>Balancing data, experience, and intuition.</P>
             </TextWrapper>
-            {/* <BtnWrapper center > */}
+            <BtnWrapper center >
                 <ButtonString homePageBtn />
-            {/* </BtnWrapper> */}
+            </BtnWrapper>
         </CardsHide>
         <CardsHide>
-        {/* <BtnWrapper> */}
+        <BtnWrapper right >
             <ButtonString homePageBtn exchangeBtn />
-        {/* </BtnWrapper> */}
+        </BtnWrapper>
             <TextWrapper>
                 <Heading>ENTREPRENEURSHIP</Heading>
             <P>In start-ups and established companies.</P>
             </TextWrapper>
-            {/* <BtnWrapper center > */}
+            <BtnWrapper center >
                 <ButtonString homePageBtn />
-            {/* </BtnWrapper> */}
+            </BtnWrapper>
         </CardsHide>
     </StyledContainer>
 );

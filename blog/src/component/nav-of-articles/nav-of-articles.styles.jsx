@@ -9,6 +9,10 @@ export const StyledContainer = styled.div`
     background-color: #D5D7D8;
     margin-bottom: 30px;
     margin-top: 30px;
+    @media screen and ( max-width: 768px ) {
+        display: flex;
+        flex-direction: column;
+    }
 `;
 
 export const TitleActive = styled.div`
@@ -73,6 +77,7 @@ export const TitleSecond = styled.div`
     }
     @media screen and ( max-width: 768px ) {
         display: none;
+        border-bottom: 1px solid grey;
     }
 `;
 
@@ -94,6 +99,7 @@ export const TitleThird = styled.div`
     }
     @media screen and ( max-width: 768px ) {
         display: none;
+        border-bottom: 1px solid grey;
     }
 `;
 

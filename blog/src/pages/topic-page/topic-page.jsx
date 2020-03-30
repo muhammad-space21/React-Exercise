@@ -16,8 +16,8 @@ const TopicPage = () => (
         <NavbarMain />
         <NavMain />
         <TopicPageHeader />
-        <HomepageBody />
         <NavOfArticles />
+        <HomepageBody />
         <PopularTopicsSection />
         <Footer />
         <CallToActionSection />

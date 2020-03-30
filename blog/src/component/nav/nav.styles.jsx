@@ -14,6 +14,7 @@ export const StyledNav = styled(Nav)`
     margin-top: 90px;
     @media screen and ( max-width: 1050px ) {
         display: none;
+        margin-top: 0px;
     }
 `;
 

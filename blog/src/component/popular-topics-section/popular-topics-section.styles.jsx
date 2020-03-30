@@ -46,7 +46,7 @@ export const Heading = styled.div`
 `;
 
 export const ButtonWrapper = styled.div`
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     margin-bottom: 30px;
 `;

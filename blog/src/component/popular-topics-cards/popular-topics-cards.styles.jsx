@@ -72,11 +72,10 @@ export const P = styled.p`
     line-height: 20px;
 `;
 
-// export const BtnWrapper = styled.div`
-//     width: 100%;
-//     height: fit-content;
-//     border: 2px solid red;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: flex-end;
-// `;
+export const BtnWrapper = styled.div`
+    width: fit-content;
+    height: fit-content;
+    margin: ${props => (props.center ? '0 auto' : '')};
+    margin-left: ${props => (props.right ? 'auto' : '')};
+    margin-right: ${props => (props.right ? '0' : '')};
+`;

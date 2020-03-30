@@ -10,19 +10,24 @@ import {
 import IconNext from '../../assets/icons/next.svg';
 
 
-const NavOfArticles = () => (
-    <StyledContainer>
-        <TitleActive>
-            <h1>Latest</h1>
-            <img src={IconNext} alt="icon-next"/>
-        </TitleActive>
-        <TitleSecond>
-            <h1>Popular</h1>
-        </TitleSecond>
-        <TitleThird>
-            <h1>From the store</h1>
-        </TitleThird>
-    </StyledContainer>
-);
+class NavOfArticles extends React.Component {
+
+    render() {
+        return(
+            <StyledContainer>
+                <TitleActive>
+                   	<h1>Latest</h1>
+                    <img src={IconNext} alt="icon-next" />
+                </TitleActive>
+                <TitleSecond>
+                    <h1>Popular</h1>
+                </TitleSecond>
+                <TitleThird>
+                    <h1>From the store</h1>
+                </TitleThird>
+            </StyledContainer>
+        );
+    };
+};
 
 export default NavOfArticles;
