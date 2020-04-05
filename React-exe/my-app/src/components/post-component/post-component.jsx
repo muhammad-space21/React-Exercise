@@ -9,9 +9,9 @@ const Post = ({postId}) => {
     const post = useFetch(`https://jsonplaceholder.typicode.com/posts?id=${postId}`);
 
     return (
-        <StyledContainer>
-            <Card>
-                { 
+      <StyledContainer>
+          <Card>
+              { 
                 post ? (
                     <>
                         <Title>{post.title}</Title>
