@@ -5,7 +5,7 @@ import useDataFetching  from '../useDataFetching/useDataFetching';
 const RepositoriesHooks = () => {
   const { loading, results, error } = useDataFetching(
     'https://api.github.com/users/royderks/repos'
-    );
+  );
 
     if (loading || error) {
       return loading ? 'Loading...' : error.message;
